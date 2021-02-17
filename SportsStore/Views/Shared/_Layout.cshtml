@@ -11,7 +11,9 @@
         <a class="navbar-brand" href="#">Outdoor Store</a>
     </div> 
     <div class="row m-1 p-1">
-        <div id="categories" class="col-3"> Get Outdoors During This Pandemic </div>
+        <div id="categories" class="col-3">
+            @await Component.InvokeAsync("NavigationMenu")
+        </div>
         <div class="col-9">
          @RenderBody()
         </div>
