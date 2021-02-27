@@ -8,7 +8,7 @@
     <Folder Include="Infrastructure\" />
     <Folder Include="Components\" />
     <Folder Include="Views\Cart\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
   <ItemGroup>
