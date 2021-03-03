@@ -20,66 +20,82 @@ namespace SportsStore.Models
                 context.Products.AddRange(
                 new Product
                 {
-                    Name = "Kayak",
-                    Description = "A boat for one person",
-                    Category = "Watersports",
-                    Price = 275
+                    Name = "Teton Sports Scout 3400",
+                    Description = "45 Liter internal frame backpack",
+                    Category = "Backpacks",
+                    Price = 76
                 },
                 new Product
                 {
-                    Name = "Lifejacket",
-                    Description = "Protective and fashionable",
-                    Category = "Watersports",
-                    Price = 48.95m
+                    Name = "Sleepingo Sleeping Pad",
+                    Description = "Inflatable air sleeping pad",
+                    Category = "Sleeping Pads",
+                    Price = 39.95m
                 },
                 new Product
                 {
-                    Name = "Soccer Ball",
-                    Description = "FIFA-approved size and weight",
-                    Category = "Soccer",
-                    Price = 19.50m
+                    Name = "Trademark Supplies Tarp",
+                    Description = "Heavy duty waterproof tarp 6x8 Feet",
+                    Category = "Tarps",
+                    Price = 19.88m
                 },
                 new Product
                 {
-                    Name = "Corner Flags",
-                    Description = "Give your playing field a professional touch",
-                    Category = "Soccer",
-                    Price = 34.95m
+                    Name = "Corona RS16150 Saw",
+                    Description = "10 inch Foldable Saw",
+                    Category = "Saws",
+                    Price = 22.65m
                 },
                 new Product
                 {
-                    Name = "Stadium", Description = "Flat-packed 35,000-seat stadium",
-                    Category = "Soccer",
-                    Price = 79500
+                    Name = "Becker BK2 Knife",
+                    Description = "Campanion Fixed 5.25 Inch Blade Knife",
+                    Category = "Knives",
+                    Price = 87.91m
                 },
                 new Product
                 {
-                    Name = "Thinking Cap",
-                    Description = "Improve brain efficiency by 75%",
-                    Category = "Chess",
-                    Price = 16
+                    Name = "Clostnature Tent",
+                    Description = "3 Season Lightweight Backpacking Tent",
+                    Category = "Tents",
+                    Price = 79.99m
                 },
                 new Product
                 {
-                    Name = "Unsteady Chair",
-                    Description = "Secretly give your opponent a disadvantage",
-                    Category = "Chess",
-                    Price = 29.95m
+                    Name = "Big Agnes Torchlight 20 Sleeping bag",
+                    Description = "Down filled mummy sleeping bag",
+                    Category = "Sleeping Bags",
+                    Price = 299.95m
                 },
                 new Product
                 {
-                    Name = "Human Chess Board",
-                    Description = "A fun game for the family",
-                    Category = "Chess",
-                    Price = 75
+                    Name = "Stanley Adventure Cookset Kit",
+                    Description = "Portable Stainless steel cookset with nesting cups",
+                    Category = "Cooking",
+                    Price = 10
                 },
                 new Product
                 {
-                    Name = "Bling-Bling King",
-                    Description = "Gold-plated, diamond-studded King",
-                    Category = "Chess",
-                    Price = 1200
+                    Name = "Arcturus Military Wool Blanket",
+                    Description = "Warm Thick Washable Blanket Large 64 x 88 inches",
+                    Category = "Blankets",
+                    Price = 40.95m
+                },
+                new Product
+                {
+                    Name = "LifeStraw Water Filter",
+                    Description = "Filters up to 1,000 gallons of water",
+                    Category = "Water Filters",
+                    Price = 14.97m
+                },
+                new Product
+                {
+                    Name = "Nalgene Stainless Bottle",
+                    Description = "Single Wall Stainless Steel 38oz Water Bottle",
+                    Category = "Water Bottles",
+                    Price = 29.90m
                 });
+
                 context.SaveChanges();
             }
         }
