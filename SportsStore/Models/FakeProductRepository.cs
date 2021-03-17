@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SportsStore.Models
 {
-    public class FakeProductRepository : IProductRepository
+    public class FakeProductRepository
     {
         public IQueryable<Product> Products => new List<Product>
         {

@@ -9,8 +9,12 @@ namespace SportsStore.Models
         [BindNever]
         public int OrderID { get; set; }
  
-        [BindNever] public ICollection<CartLine> Lines { get; set; }
- 
+        [BindNever]
+        public ICollection<CartLine> Lines { get; set; }
+
+        [BindNever]
+        public bool Shipped { get; set; }
+
         [Required(ErrorMessage = "Please enter a name")]
         public string Name { get; set; }
 
