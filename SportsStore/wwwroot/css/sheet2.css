@@ -1,0 +1,37 @@
+﻿body {
+    background-color: lightgrey;
+}
+
+a{
+    color: darkolivegreen;
+}
+    a:hover {
+        color:darkgreen;
+    }
+
+.badge-primary {
+ background-color: darkolivegreen;
+}
+
+.btn-primary{
+    background-color: darkolivegreen;
+    border-color: olive;
+}
+    .btn-primary:hover {
+        background-color: darkolivegreen;
+        border-color: olive;
+    }
+    .btn-primary:not(:disabled):not(.disabled):active {
+        background-color: darkolivegreen;
+        border-color: olive;
+    }
+
+.btn-success {
+        background-color: darkolivegreen;
+}
+    .btn-success:hover {
+    background-color: darkolivegreen;
+    }
+    .btn-success:not(:disabled):not(.disabled):active {
+            background-color: darkolivegreen;
+    }

@@ -25,7 +25,7 @@ namespace SportsStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionString"]));
+                options.UseSqlServer(Configuration["Data:OutDoorProducts:ConnectionString"]));
 
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options.UseSqlServer(Configuration["Data:SportStoreIdentity:ConnectionString"]));
