@@ -28,7 +28,7 @@ namespace SportsStore
                 options.UseSqlServer(Configuration["Data:OutDoorProducts:ConnectionString"]));
 
             services.AddDbContext<AppIdentityDbContext>(options =>
-                options.UseSqlServer(Configuration["Data:SportStoreIdentity:ConnectionString"]));
+                options.UseSqlServer(Configuration["Data:OutDoorIdentity:ConnectionString"]));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
 
             services.AddTransient<IProductRepository, EFProductRepository>();
