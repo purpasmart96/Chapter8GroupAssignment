@@ -3,14 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace SportsStore.Controllers
 {
+    [Route("[action]/[controller]")]
     public class AboutUsController : Controller
     {
-        public IActionResult AboutUs()
+        //[Route("/About")]
+        public IActionResult About()
         {
-            return View("AboutUs");
+            return View("About");
         }
     }
 }
